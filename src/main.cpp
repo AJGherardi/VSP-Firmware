@@ -21,8 +21,7 @@ void loop() {
    {
       analogWrite(dcSpeed,i);
       delay(50);
-   }
-   
+   }   
    analogWrite(dcSpeed,255);   
    delay(5000);
    for(size_t i = 255; i > 60; i--)
